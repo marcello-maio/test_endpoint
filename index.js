@@ -1,4 +1,3 @@
-const https = require('https');
 const apiKey = process.env.AWS_API_KEY;
 
 fetch("https://c44r3fzrqc.execute-api.us-east-1.amazonaws.com/sql_test_api_stage/test2resource", {
